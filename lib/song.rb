@@ -33,7 +33,7 @@ class Song
       count = 0
       @@genre_hash[genre] = count+=1
     end
-    @@genre_hash 
+    @@genre_hash
   end
 
 end
