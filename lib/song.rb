@@ -31,7 +31,8 @@ class Song
   def self.genre_count
     @@genres.each do |genre|
       count = 0
-      @@genre_hash[genre] = count+=1
+      @@genre_hash[genre] = count 
+      count +=1 
     end
     @@genre_hash
   end
